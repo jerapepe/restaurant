@@ -1,0 +1,19 @@
+
+.pages{
+    background-color: #3C3B3B;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+   color: black;
+}
+
+#titleP{
+    background-color: rgb(94, 134, 121);
+    padding: 20px;
+    font-weight: bold;
+    color: bisque;
+    font-family: Helvetica;
+}
