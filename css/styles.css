@@ -25,3 +25,36 @@ h1{
 .navbss{
     background-color:#ffeded ;
 }
+
+  
+  .fondo{
+    background-color: #4b1a1a;
+
+  }
+  .testimonio {
+    background-color: #e0e0d1; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px;
+    max-width: 600px;
+    display: flex;
+  }
+  
+  .imagentestimonio {
+    margin-right: 20px;
+    max-width: 100px; /* Ajusta según tus necesidades */
+  }
+  
+  .testimoniotexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .nombre {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .informacion {
+    margin: 0;
+  }
