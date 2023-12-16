@@ -28,7 +28,7 @@ h1{
 
   
   .fondo{
-    background-color: #4b1a1a;
+    background-color: #7c1616;
 
   }
   .testimonio {
@@ -58,3 +58,26 @@ h1{
   .informacion {
     margin: 0;
   }
+.fondo{
+  background-color: #000000; 
+}
+.informacion-adicional {
+  background-color: #222; /* Color de fondo para la sección de información adicional */
+  color: white; /* Color del texto */
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-sociales a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.redes-sociales a:hover {
+  text-decoration: underline;
+}
+
+.contacto p {
+  margin: 5px 0;
+}
