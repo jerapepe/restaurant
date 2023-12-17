@@ -1,0 +1,106 @@
+.navbss {
+  background-color: #ffeded;
+}
+
+.testimonio {
+  background-color: #e0e0d1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  display: flex;
+}
+
+.imagentestimonio {
+  margin-right: 20px;
+  max-width: 100px;
+}
+
+.testimoniotexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nombre {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.informacion {
+  margin: 0;
+}
+
+.fondo {
+  background-color: #3d3c3c;
+}
+
+.informacion-adicional {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-sociales a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.redes-sociales a:hover {
+  text-decoration: underline;
+}
+
+.contacto p {
+  margin: 5px 0;
+}
+
+.containerS {
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-areas:
+    'navbar navbar'
+    'content content'
+    'footer footer';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
+  padding: 0%;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+  grid-area: navbar;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.container-nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  z-index: 1000;
+}
+
+.main-content {
+  grid-area: content;
+  padding: 70px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
